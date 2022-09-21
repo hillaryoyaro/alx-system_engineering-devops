@@ -1,5 +1,6 @@
-# kills a process named killmenow
-# exec { 'killmenow':
-#     path    => ['/usr/bin', '/sbin', '/bin', '/usr/sbin'],
-#         command => 'pkill "killmenow"'
-#         }
+# kill process killmenow
+
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
+}
