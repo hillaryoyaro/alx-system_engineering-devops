@@ -12,8 +12,8 @@ listen www
     bind :80
     mode http
     balance roundrobin
-    server 21966-web-01 3.238.87.75:80 check
-    server 21966-web-02 3.234.245.243:80 check
+    server 11614-web-01 34.204.187.204:80 check
+    server 11614-web-02 44.210.18.147:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy restart
