@@ -34,20 +34,20 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 
 # start of parameters for leahmbuthia.tech
-frontend leahmbuthia.tech-http-frontend
+frontend hillaryoyaro.tech-http-frontend
 	bind	 *:80
 	http-request set-header X-Forwarded-Proto http
-	default_backend	 leahmbuthia.tech-backend
+	default_backend	 hillaryoyaro.tech-backend
 
 
-frontend  leahmbuthia.tech-https-frontend
-	bind *:443 ssl crt /etc/ssl/leahmbuthia.tech.pem
+frontend  hillaryoyaro.tech
+	bind *:443 ssl crt /etc/ssl/hillaryoyaro.tech.pem
 	http-request set-header X-Forwarded-Proto https
         default_backend leahmbuthia.tech-backend
 
 
-backend leahmbuthia.tech-backend
+backend hillaryoyaro.tech
         balance roundrobin
-        server 13333-web-01 3.83.35.53:80 check
-        server 13333-web-02 44.200.107.142:80 check
+        server 13333-web-01 34.204.187.204:80 check
+        server 13333-web-02 44.210.18.147:80 check
 # end of parameters
