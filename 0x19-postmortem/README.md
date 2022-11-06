@@ -24,7 +24,7 @@ The portal is brought back online at 9:00 a.m
 
 **Corrective and Preventative Measures**
 After a thorough investigation the team reviewed and analysed the hack and took the following actions to avoid a future incident:
-- The student responsible for the hack was found and expelled from school to serve as an example
+- The Developer responsible for the unit test was to explain what led to such problem.
 - An increase in the verification steps required to access the portal
-- An introduction to biometrics for access to the portal
+- An introduction to agile and devops development in the team.
 - Increase the number of individuals being paged incase of a failto reduce the mean time to resolution (MTR).
